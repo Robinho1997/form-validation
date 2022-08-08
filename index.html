@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title> Form-Validation </title>
+</head>
+
+<body>
+<h1>Form Validation</h1>
+    <div id="error"></div>
+
+    <form id="form">
+        <div id="e-mail-div">
+            <label for="email"> E-Mail: </label>
+            <input type="text" name="email" id="email">
+        </div>
+
+        <div id="country-div">
+            <label for="country"> Country: </label>
+            <input type="text" name="country" id="country">
+        </div>
+
+        <div id="zip-code-div">
+            <label for="zipcode"> Zip-Code: </label>
+            <input type="number" name="zipcode" id="zipcode">
+        </div>
+
+        <div id="password-div">
+            <label for="password"> Password: </label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div id="password-confirmation-div">
+            <label for="password-confirmation"> Confirm Password: </label>
+            <input type="password" name="password-confirmation" id="password-confirmation">
+        </div>
+
+        <button type="submit" id="submit-button"> Submit </button>
+    </form>
+
+</body>
+
+</html>
